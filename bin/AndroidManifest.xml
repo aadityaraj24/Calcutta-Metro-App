@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.calcuttametroapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<uses-permission android:name="android.permission.CALL_PHONE">
+    
+</uses-permission>
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.calcuttametroapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.calcuttametroapp.ActivityHomePage"
+            android:label="@string/title_activity_activity_home_page"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.calcuttametroapp.ActivityStations"
+            android:label="@string/title_activity_activity_stations"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.calcuttametroapp.ActivityTravelInfo"
+            android:label="@string/title_activity_activity_travel_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.calcuttametroapp.ActivityHelpline"
+            android:label="@string/title_activity_activity_helpline"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.calcuttametroapp.ActivitySmartcard"
+            android:label="@string/title_activity_activity_smartcard"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.calcuttametroapp.ActivityRoute"
+            android:label="@string/title_activity_activity_route"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.calcuttametroapp.ActivityInfo"
+            android:label="@string/title_activity_activity_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.calcuttametroapp.ActivityAbout"
+            android:label="@string/title_activity_activity_about"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.calcuttametroapp.ActivityTrainTime"
+            android:label="@string/title_activity_activity_train_time"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.calcuttametroapp.ActivityStation"
+            android:label="@string/title_activity_activity_station" >
+        </activity>
+    </application>
+
+</manifest>

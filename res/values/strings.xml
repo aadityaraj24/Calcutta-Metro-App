@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calcutta Metro App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_activity_home_page">Calcutta Metro</string>
+    <string name="title_activity_activity_stations">ActivityStations</string>
+    <string name="title_activity_activity_travel_info">Fare &amp; Travel Info</string>
+    <string name="title_activity_activity_helpline">Helpline Number</string>
+    <string name="title_activity_activity_smartcard">Smart Card</string>
+    <string name="title_activity_activity_route">Map</string>
+    <string name="title_activity_activity_info">Kolkata Metro Info</string>
+    <string name="title_activity_activity_about">About</string>
+    <string name="title_activity_activity_train_time">Next Train</string>
+    <string name="title_activity_activity_station">Stations</string>
+    <string-array name="countries">
+        <item>NOAPARA </item>
+        <item>DUMDUM </item>
+        <item> BELGACHIA </item>
+        <item>SHYAMBAZAR</item>
+        <item>SOVABAZAR(SUTANUTI)</item>
+        <item>GIRISH PARK</item>
+        <item>MAHATMA GANDHI ROAD</item>
+        <item>CENTRAL</item>
+        <item>CHANDANI CHOWK</item>
+        <item>ESPLANADE</item>
+        <item>PARK STREET</item>
+        <item>MAIDAN</item>
+        <item>RABINDRA SADAN</item>
+        <item>NETAJI BHAVAN</item>
+        <item>JATIN DAS PARK</item>
+        <item>KALIGHAT</item>
+        <item>RABINDRA SAROBAR</item>
+        <item>MAHANAYAK UTTAM KUMAR(TOLLYGUNGE)</item>
+        <item>NETAJI(KUDGHAT)</item>
+        <item>GITANJALI(NAKTALA)</item>
+        <item>KAVI NAZRUL(GARIA BAZAR)</item>
+        <item>SHAHID KHUDIRAM(BRIJEE)</item>
+        <item>KAVI SUBHASH(NEW GARIA)</item>
+    </string-array>
+
+</resources>

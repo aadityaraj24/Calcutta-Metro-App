@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="#2196F3" >
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        android:background="#2196F3">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="500dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_gravity="fill_horizontal"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/curved_corner"
+                    android:columnCount="1"
+                    android:orientation="vertical" >
+
+                    <Spinner
+                        android:id="@+id/sourceSpin"
+                        android:layout_width="153dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="right|top"
+                        android:layout_marginTop="38dp"
+                        android:layout_row="0"
+                       
+                        />
+
+                    <Spinner
+                        android:id="@+id/desSpin"
+                        android:layout_width="153dp"
+                        android:layout_column="0"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginTop="100dp"
+                        android:layout_row="0" />
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_column="0"
+                        android:layout_gravity="left|top"
+                        android:layout_marginTop="25dp"
+                        android:layout_row="0"
+                        android:src="@drawable/location" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="69dp"
+                        android:layout_height="69dp"
+                        android:layout_column="0"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_marginTop="70dp"
+                        android:layout_row="0"
+                        android:src="@drawable/locationdestintn" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal|top"
+                        android:layout_marginRight="80dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_row="0"
+                        android:text="From"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="77dp"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="65dp"
+                        android:layout_marginRight="60dp"
+                        android:layout_row="0"
+                        android:text="To"
+                        android:textSize="25dp" />
+                </GridLayout>
+
+            </GridLayout>
+
+            <Button
+                android:id="@+id/Button01"
+                android:layout_width="187dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_normal"
+                android:text="Refresh"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="Next metro will be available at"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="150dp"
+                android:layout_height="83dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="110dp"
+                android:text="00:00"
+                android:textColor="#0041b2"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+         </RelativeLayout>
+    </ScrollView>

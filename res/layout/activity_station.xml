@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="457dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/Button23"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Noapara"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button22"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Dumdum"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button21"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Belgachia"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button20"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Shyam Bazar"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button19"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Sovabazar"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button18"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Girish Park"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button17"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Mahatma Gandhi Road"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button16"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Central"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button15"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Chandni Chowk"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button14"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Esplanade"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button13"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Park Street"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button12"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Maidan"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button11"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Rabindra Sadan"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button10"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Netaji Bhavan"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button09"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Jatin Das Park"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button08"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Kalighat"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button07"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Rabindra Sarobar"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button06"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Mahanayak Uttam Kumar"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button05"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Netaji"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Masterda Surya Sen"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Gitanjali"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Kavi Nazrul"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Shahid Khudiram"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+"
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:background="@drawable/singleborder"
+            android:text="Kavi Subhash"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    
+    </ScrollView>

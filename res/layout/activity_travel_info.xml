@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        android:background="#2196F3">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="670dp"
+            android:orientation="vertical" >
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/curved_corner"
+                android:columnCount="1"
+                android:orientation="vertical" >
+
+                <Spinner
+                    android:id="@+id/desSpin"
+                    android:layout_width="153dp"
+                    android:layout_column="0"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginTop="38dp"
+                    android:layout_row="0" />
+
+                <ImageView
+                    
+                    android:id="@+id/imageView1"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_column="0"
+                    android:layout_gravity="left|top"
+                    android:layout_row="0"
+                    android:src="@drawable/location"
+                    android:layout_marginTop="25dp" />
+                 <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="69dp"
+                    android:layout_height="69dp"
+                    android:layout_column="0"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginTop="70dp
+"
+                    android:layout_row="0"
+                    android:src="@drawable/locationdestintn" />
+
+                 <TextView
+                     android:id="@+id/textView8"
+                     android:layout_column="0"
+                     android:layout_gravity="center_horizontal|top"
+                     android:layout_row="0"
+                     android:text="From"
+                     android:textSize="25dp"
+                     android:layout_marginTop="50dp"
+                     android:layout_marginRight="80dp" />
+
+                 <TextView
+                     android:id="@+id/textView9"
+                     android:layout_width="77dp"
+                     android:layout_column="0"
+                     android:layout_gravity="center_horizontal|bottom"
+                     android:layout_marginBottom="65dp"
+                     android:layout_marginRight="60dp"
+                     android:layout_row="0"
+                     android:text="To"
+                     android:textSize="25dp" />
+
+                 <Spinner
+                     android:id="@+id/sourceSpin"
+                     android:layout_width="153dp"
+                     android:layout_height="wrap_content"
+                     android:layout_column="0"
+                     android:layout_gravity="right|top"
+                     android:layout_marginTop="38dp"
+                     android:layout_row="0" />
+
+                </GridLayout>
+                <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/curved_corner"
+                android:columnCount="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/stationBetween"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_column="0"
+                    android:layout_gravity="center"
+                    android:layout_row="0"
+                    android:text="Intermediate stations"
+                    android:background="@drawable/curved_corner"
+                    android:textSize="23dp"/>
+
+            </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                   android:background="@drawable/curved_corner"
+                    android:columnCount="6"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="142dp"
+                        android:layout_height="wrap_content"
+                        android:layout_column="3"
+                        android:layout_gravity="left|top"
+                        android:layout_marginRight="2dp"
+                        android:layout_row="3"
+                        android:text="Travel info"
+                        android:textAlignment="textStart"
+                        android:textColor="#000000"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="92dp"
+                        android:layout_height="32dp"
+                        android:layout_column="3"
+                        android:layout_gravity="center_horizontal|top"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="70dp"
+                        android:layout_row="3"
+                        android:text="Distance"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="92dp"
+                        android:layout_height="32dp"
+                        android:layout_column="3"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_row="3"
+                        android:text="Fare"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="94dp"
+                        android:layout_height="63dp"
+                        android:layout_column="3"
+                        android:layout_gravity="center_horizontal|bottom"
+                        
+                        android:layout_marginLeft="60dp"
+                        android:layout_row="3"
+                        android:text="Duration"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/distRes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="5"
+                        android:layout_gravity="fill_horizontal|top"
+                        android:layout_marginTop="70dp"
+                        android:layout_row="3"
+                        android:text="TextView"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/fareRes"
+                        android:layout_width="122dp"
+                        android:layout_column="5"
+                        android:layout_gravity="fill_horizontal|center_vertical"
+                        android:layout_marginTop="45dp"
+                        android:layout_row="3"
+                        android:text="TextView"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:id="@+id/dur"
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        android:layout_column="5"
+                        android:layout_gravity="fill_horizontal|bottom"
+                        android:layout_marginTop="30dp"
+                        android:layout_row="3"
+                        android:text="TextView"
+                        android:textSize="25dp" />
+
+                    <LinearLayout
+                        android:layout_width="58dp"
+                        android:layout_height="228dp"
+                        android:layout_column="3"
+                        android:layout_gravity="left|top"
+                        android:layout_row="3"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="40dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="60dp"
+                            android:layout_weight="0.02"
+                            android:src="@drawable/distance" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/coin"
+                            android:layout_marginTop="20dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="40dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/clock" />
+
+                    </LinearLayout>
+
+                </GridLayout>
+
+             </LinearLayout>
+         </RelativeLayout>
+    </ScrollView>

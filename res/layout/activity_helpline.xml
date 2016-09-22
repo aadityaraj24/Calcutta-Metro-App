@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        android:background="#2196F3">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="800dp"
+            android:orientation="vertical" >
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.00"
+                android:background="@drawable/curved_corner"
+                android:columnCount="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/TextView09"
+                    android:layout_width="288dp"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:background="#ffffff"
+                    android:text="9007041908"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/TextView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="Women Helpline"
+                    android:textSize="15dp"
+                     android:background="#ffffff" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.00"
+                android:background="@drawable/curved_corner"
+                android:columnCount="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/TextView07"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="9007041789"
+                    android:textSize="25dp" 
+                     android:background="#ffffff"/>
+
+                <Button
+                    android:id="@+id/TextView08"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="Security Helpline"
+                    android:textSize="15dp" 
+                     android:background="#ffffff"/>
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.00"
+                android:background="@drawable/curved_corner"
+                android:columnCount="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/TextView05"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="03322263959"
+                    android:textSize="25dp"
+                     android:background="#ffffff" />
+
+                <Button
+                    android:id="@+id/TextView06"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="Metro Railway"
+                    android:textSize="15dp"
+                     android:background="#ffffff" />
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.00"
+                android:background="@drawable/curved_corner"
+                android:columnCount="1"
+                android:orientation="vertical"
+                 >
+
+                <Button
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_column="0"
+                    android:layout_gravity="left|top"
+                    android:layout_marginLeft="10dp"
+                    android:layout_row="0"
+                    android:text="03322143230"
+                    android:textSize="25dp" 
+                     android:background="#ffffff"/>
+
+                <Button
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_column="0"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_row="0"
+                    android:text="Lalbazar Police"
+                    android:textSize="15dp" 
+                     android:background="#ffffff"/>
+                
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/curved_corner"
+                android:columnCount="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/TextView02"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="100"
+                    android:textSize="25dp" 
+                     android:background="#ffffff"/>
+
+                <Button
+                    android:id="@+id/TextView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="Police Control Room"
+                    android:textSize="15dp" 
+                     android:background="#ffffff"/>
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/curved_corner"
+                android:columnCount="6"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/TextView04"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="101"
+                    android:textSize="25dp" 
+                     android:background="#ffffff"/>
+
+                <Button
+                    android:id="@+id/TextView03"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="Fire Station"
+                    android:textSize="15dp" 
+                     android:background="#ffffff"
+                    />
+            </GridLayout>
+
+        </LinearLayout>
+
+         </RelativeLayout>
+    </ScrollView>
